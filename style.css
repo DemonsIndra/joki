@@ -1,0 +1,54 @@
+#sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 0;
+    width: 20%;
+    padding-top: 56px; /* Height of the navbar */
+    overflow-y: auto; /* Add scrollbar if needed */
+  }
+
+  #sidebar ul {
+    padding-left: 20px; /* Add padding to the list items */
+  }
+
+  #sidebar a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    
+  }
+
+  .logo a{
+    font-size: 30px;
+    padding: 0;
+  }
+
+  .category-link a{
+    color: black;
+  }
+
+  .active-category {
+    color: #ffc107 !important; /* Change this to your desired active color */
+  }
+
+  #content {
+    margin-left: 25%; /* Width of the sidebar */
+    width: 80%;
+  }
+
+  .cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .card{
+    max-width: 30%;
+    margin-bottom: 20px;
+  }
+
+  .card img{
+  max-height: 250px;
+  object-fit: cover;
+  }
